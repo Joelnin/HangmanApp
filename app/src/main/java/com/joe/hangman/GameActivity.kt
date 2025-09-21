@@ -9,7 +9,6 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import kotlin.random.Random
 
@@ -20,7 +19,7 @@ class GameActivity : AppCompatActivity() {
     private lateinit var ivHangmanDraw: ImageView
     private lateinit var tvGameProgress: TextView
     private lateinit var tvAttemptsLeft: TextView
-    private lateinit var lettersLayout: ConstraintLayout
+    private lateinit var lettersLayout: LinearLayout
     private lateinit var finalBtns: LinearLayout
 
     override fun onCreate(savedInstanceState: Bundle?) {
